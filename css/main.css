@@ -1,0 +1,515 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+body {
+    background-color: var(--Violet);
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 16px;
+
+}
+
+.header {
+    margin: 65px 0 0 80px;
+    width: max-content;
+}
+
+.main-container {
+    display: flex;
+    margin: 100px 80px 0 65px;
+    position: relative;
+}
+
+.main-container article img {
+    width: 700px;
+    height: 493px;
+}
+
+.main-container aside {
+    width: 510px;
+    margin-left: 60px;
+    padding: 45px 0 0 0;
+}
+
+.main-container aside h1 {
+    font-family: Poppins;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+
+.main-container aside p {
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.main-container aside #btn-register {
+    font-family: Open Sans;
+    font-size: 18px;
+    padding: 15px 65px;
+    border-radius: 30px;
+    border: none;
+    color: var(--Violet);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.main-container aside #btn-register:hover {
+    background-color: var(--Soft-Magenta);
+}
+
+#sociais {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+
+a img {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+a img:hover{
+background-color: var(--Soft-Magenta);
+}
+
+@media (min-width: 1190px) and (max-width: 1270px) {
+
+    .main-container article img {
+        width: 550px;
+        height: 493px;
+    }
+
+    a img {
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+}
+
+@media (min-width: 1080px) and (max-width: 1189px) {
+
+    .main-container {
+        margin: 70px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 500px;
+        height: 450px;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+    }
+
+}
+
+@media (min-width: 1057px) and (max-width: 1079px) {
+
+    .header {
+        margin: 45px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 16px;
+    }
+
+    .main-container {
+        margin: 70px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 500px;
+        height: 450px;
+    }
+
+    .main-container aside h1 {
+        font-size: 2em;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+    }
+
+}
+
+@media (min-width: 1022px) and (max-width: 1056px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 16px;
+    }
+
+    .main-container {
+        margin: 70px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 500px;
+        height: 450px;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.8em;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+    }
+
+}
+
+@media (min-width: 979px) and (max-width: 1021px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+    }
+
+    .main-container {
+        margin: 50px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 490px;
+        height: 440px;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.6em;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+    }
+
+}
+
+@media (min-width: 959px) and (max-width: 978px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+    }
+
+    .main-container {
+        margin: 50px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 490px;
+        height: 440px;
+    }
+
+    .main-container aside {
+        margin-left: 40px;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.6em;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 958px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+    }
+
+    .main-container {
+        margin: 50px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 460px;
+        height: 440px;
+    }
+
+    .main-container aside {
+        margin-left: 15px;
+        padding: 35px 0 0 0;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.6em;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+    }
+
+    a img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+@media (min-width: 850px) and (max-width: 899px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .main-container {
+        margin: 50px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 460px;
+        height: 440px;
+    }
+
+    .main-container aside {
+        margin-left: 15px;
+        padding: 35px 0 0 0;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.6em;
+        margin-bottom: 30px;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+
+    }
+
+    a img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (min-width: 805px) and (max-width: 849px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .main-container {
+        margin: 80px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 420px;
+        height: 420px;
+    }
+
+    .main-container aside {
+        margin-left: 15px;
+        padding: 23px 0 0 0;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+
+    }
+
+    a img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 804px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .main-container {
+        margin: 95px 80px 0 65px;
+    }
+
+    .main-container article img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main-container aside {
+        margin-left: 15px;
+        padding: 23px 0 0 0;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+
+    }
+
+    a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media (min-width: 507px) and (max-width: 766px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .main-container {
+        margin: 50px 0px 0 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container article img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main-container aside {
+        text-align: center;
+        padding: 40px 0 0 0;
+        margin-left: 0;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+
+    }
+
+    a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #sociais {
+        position: relative;
+    }
+}
+
+
+@media (min-width: 280px) and (max-width: 506px) {
+
+    .header {
+        margin: 35px 0 0 80px;
+    }
+
+
+    .main-container {
+        margin: 40px 0px 0 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-container article img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main-container aside p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .main-container aside {
+        width: 100%;
+        text-align: center;
+        padding: 40px 50px;
+        margin: 0 auto;
+    }
+
+    .main-container aside h1 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .main-container aside #btn-register {
+        padding: 12px 60px;
+
+    }
+
+    a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #sociais {
+        position: relative;
+    }
+}
